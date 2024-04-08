@@ -20,21 +20,11 @@ const Home: NextPage = () => {
     <main className={styles.main}>
       <div className={styles.container}>
         <div className={styles.header}>
-          <h1 className={styles.title}>
-            Gasless Transactions with <br />
-            <span className={styles.gradientText0}>
-              <a
-                href="https://thirdweb.com/embedded-wallets"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Smart & Embedded Wallets.
-              </a>
-            </span>
-          </h1>
+          <h1 className={styles.title}>Account Abstraction Demo</h1>
 
           <div className={styles.connect}>
             <ConnectWallet
+              // @ts-ignore
               dropdownPosition={{
                 side: "bottom",
                 align: "center",
